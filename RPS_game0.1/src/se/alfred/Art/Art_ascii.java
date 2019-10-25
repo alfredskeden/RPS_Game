@@ -91,7 +91,8 @@ public class Art_ascii {
 		System.out.println("         _______)        (_______         ");
 		System.out.println("---.__________)            (__________.---");
 	}
-	
+
+	//Printing countdown number 1
 	public static void printNumberOne() {
          System.out.println(" .----------------. ");
          System.out.println("| .--------------. |");
@@ -105,7 +106,8 @@ public class Art_ascii {
          System.out.println("| '--------------' |");
          System.out.println(" '----------------' ");
 	}
-	
+
+	//Printing countdown number 2
 	public static void printNumberTwo() {
 		
 		System.out.println(" .----------------. ");
@@ -121,7 +123,8 @@ public class Art_ascii {
 		System.out.println(" '----------------' ");
 		
 	}
-	
+
+	//Printing countdown number 3
 	public static void printNumberThree() {
 		
 		System.out.println(" .----------------. ");
@@ -138,8 +141,6 @@ public class Art_ascii {
 		
 	}
 	
-	//Clearboard
-	public static void clearBoard() {
-		for (int i = 0; i < 50; ++i) System.out.println();
-	}
+	//Clearing the board
+	public static void clearBoard() { for (int i = 0; i < 50; ++i) System.out.println(); }
 }
